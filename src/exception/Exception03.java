@@ -5,9 +5,9 @@ public class Exception03 {
 		try {
 			Exception03.division(100, 0);
 		} catch (ArithmeticException e) {
-			System.out.println("ArithmeticException例外が発生");
+			System.out.println("ArithmeticException例外が発生しました");
 		} catch (IllegalArgumentException e) {
-			System.out.println("IllegalArgumentException例外が発生");
+			System.out.println("IllegalArgumentException例外が発生しました");
 			throw e;
 		}
 		System.out.println("プログラム終了");
